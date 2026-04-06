@@ -99,17 +99,6 @@ El frontend quedará disponible en `http://localhost:4200`
 
 ---
 
-## 📡 Endpoints de la API
-
-| Método | Endpoint | Descripción |
-|---|---|---|
-| POST | `/api/login/` | Autenticación con usuario y contraseña |
-| POST | `/api/register/` | Registro de nuevo usuario |
-| POST | `/api/request-otp/` | Solicitar código OTP para recuperar contraseña |
-| POST | `/api/verify-otp/` | Verificar OTP y cambiar contraseña |
-
----
-
 ## 🔄 Flujo de recuperación de contraseña
 
 ```
@@ -126,7 +115,7 @@ El frontend quedará disponible en `http://localhost:4200`
 ## 📁 Estructura del proyecto
 
 ```
-Desafío-Técnico/
+desafio-tecnico-login-y-seguridad/
 ├── ISPC-ProgIII/              # Backend Django
 │   ├── accounts/              # App de autenticación
 │   │   ├── views.py           # Lógica de los endpoints
